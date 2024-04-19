@@ -575,7 +575,9 @@ progress {
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-
+.space-bottom {
+  margin-bottom: 20px; /* Adjust the space by changing the value */
+}
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
@@ -10970,3 +10972,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
