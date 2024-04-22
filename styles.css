@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #000;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -77,6 +77,9 @@
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+  --bs-sport-color1: #d4bf91;
+  --bs-sport-color2: #b2b4b3;
+  --bs-sport-color3: #000;
 }
 
 *,
@@ -575,9 +578,7 @@ progress {
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-.space-bottom {
-  margin-bottom: 50px; /* Adjust the space by changing the value */
-}
+
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
